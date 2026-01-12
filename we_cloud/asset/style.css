@@ -1,0 +1,157 @@
+
+/* =============================
+   CONTENT OFFSET
+============================= */
+.main-content {
+    margin-left: 230px;
+    padding: 80px 30px 30px;
+}
+/* =============================
+   AUTH (LOGIN & REGISTER)
+============================= */
+.auth-body {
+    background: url("../asset/bg-cuaca.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.auth-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.auth-card h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-card .form-control {
+    border-radius: 10px;
+}
+
+.auth-card .btn-primary {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-link a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+/* ===============================
+   DASHBOARD - WE CLOUD
+================================ */
+
+body {
+    background: #f8f9fa;
+}
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    background: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+.sidebar h6 {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #0d6efd;
+    color: #fff;
+}
+
+/* CONTENT */
+.content {
+    margin-left: 250px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+/* CARD */
+.card-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TABLE */
+.table th {
+    background: #f1f1f1;
+}
+
+/* ===============================
+   CARD LAPORAN CUACA
+================================ */
+
+.weather-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.weather-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* WARNA BERDASARKAN CUACA */
+.cuaca-cerah {
+    border-top: 5px solid #f4c430;
+}
+
+.cuaca-berawan {
+    border-top: 5px solid #0d6efd;
+}
+
+.cuaca-hujan-ringan {
+    border-top: 5px solid #2f5d2d;
+}
+
+.cuaca-hujan-deras {
+    border-top: 5px solid #dc3545;
+}
+
+/* JUDUL KOTA */
+.weather-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* IKON CUACA */
+.weather-icon {
+    font-size: 28px;
+}
